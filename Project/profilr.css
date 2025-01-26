@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+}
+
+.profile-card {
+    background: #ffcccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    width: 280px;
+}
+
+.profile-card .header {
+    background: linear-gradient(45deg, #f6f6f6, #ffcccc);
+    padding: 30px;
+}
+
+.profile-card .header img {
+    border-radius: 80%;
+    border: 5px solid white;
+    width: 200px;
+    height: 200px;
+}
+
+.profile-card h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.profile-card p {
+    color: #777777;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.profile-card .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.profile-card .social-icons a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #4e54c8;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card .actions {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px 20px;
+    gap: 0px;
+}
+
+.profile-card .actions button {
+    background: linear-gradient(45deg, #4e54c8, #8f94fb);
+    border: none;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.profile-card .actions button:hover {
+    background: linear-gradient(45deg, #8f94fb, #4e54c8);
+}
+
+.profile-card .stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background: #ffcccc;
+    border-top: 1px solid #e0e0e0;
+}
+
+.profile-card .stats div {
+    text-align: center;
+}
+
+.profile-card .stats div span {
+    display: block;
+    color: #333333;
+    font-weight: bold;
+}
+
+.profile-card .stats div small {
+    color: #777777;
+}

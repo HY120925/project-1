@@ -1,0 +1,41 @@
+  .hero{
+    size: 100%;
+  }
+  .paragraph{
+    text-size-adjust: 10px;
+    color: white;
+  }
+ #main
+ {
+    color: white;
+  }
+  body
+  {
+  background-color: black;  
+  }
+  .resume
+  {
+    background-color: white;
+  }
+  .info
+  {
+    background-color: black;
+  }
+  .img
+  {
+    display: flex;
+    float: left;
+    align-content: center;
+    margin-right: 20px;
+    height: 250px;
+    width: 250px;
+  }
+  .pera{
+    display: flex;
+    align-items: right;
+    font-size: x-large;
+    color: white;
+  }
+  #contact{
+    background-color: white;
+  }
